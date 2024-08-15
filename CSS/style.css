@@ -52,14 +52,20 @@ section {
 section p {
     font-family: "Kalam", cursive;
     font-weight: 500;
-    
+    padding-bottom: 2em;
 }
 
 section.img > p {
-    background-color: rgba(0, 0, 0, 0.332);
+    background-color: rgba(0, 0, 0, 0.351);
     width: 47vw;
     display: inline-block;
     padding: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px  6px 13px rgba(0, 0, 0, 0.515);
+}
+
+section.img {
+    box-shadow: inset 2px 2px 5px 2px black;
 }
 
 section.normal {
@@ -72,7 +78,7 @@ section.img.ladybug {
     color: wheat;
     background-image: url('/imagens/ladybug-3475779_1280.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
