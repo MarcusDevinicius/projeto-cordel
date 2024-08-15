@@ -76,7 +76,7 @@ section.normal {
 section.img.ladybug {
     background-color: rgb(38, 38, 38);
     color: wheat;
-    background-image: url('/imagens/ladybug-3475779_1280.jpg');
+    background-image: url('../imagens/ladybug-3475779_1280.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -84,7 +84,7 @@ section.img.ladybug {
 }
 
 section.img.papper-sheets {
-    background: url('/imagens/paper-623167_1280.jpg') center center no-repeat fixed;
+    background: url('../imagens/paper-623167_1280.jpg') center center no-repeat fixed;
     background-size: cover;
  
 }
