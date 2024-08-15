@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: gray;
+}
+
+#cabecalho {
+    background-color: black;
+    color: white;
+    height: 300px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#cabecalho > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 110px;
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    max-width: 100%;
+}
+
+section p {
+    font-size: 50px;
+    line-height: 2em;
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    
+}
+
+section.img > p {
+    background-color: rgba(0, 0, 0, 0.332);
+    width: 600px;
+}
+
+section.normal {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+section.img.ladybug {
+    background-color: rgb(38, 38, 38);
+    color: wheat;
+    background-image: url('/imagens/ladybug-3475779_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.img.papper-sheets {
+    background: url('/imagens/paper-623167_1280.jpg') center center no-repeat fixed;
+    background-size: cover;
+ 
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
