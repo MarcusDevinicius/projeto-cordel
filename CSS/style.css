@@ -78,13 +78,13 @@ section.img.ladybug {
     color: wheat;
     background-image: url('../imagens/ladybug-3475779_1280.jpg');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center right;
     background-size: cover;
     background-attachment: fixed;
 }
 
 section.img.papper-sheets {
-    background: url('../imagens/paper-623167_1280.jpg') center center no-repeat fixed;
+    background: url('../imagens/paper-623167_1280.jpg') right center no-repeat fixed;
     background-size: cover;
  
 }
